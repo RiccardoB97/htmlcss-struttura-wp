@@ -16,12 +16,33 @@
     margin: auto;
 }
 
-header{
+header, footer{
     height: 80px;
     background-color: red;
+    width: 80%;
+    margin: auto;
 }
 
 .main_banner{
     background-color: royalblue;
     height: 300px;
+}
+
+.left_column, .right_column{
+    width: 20%;
+    float: left;
+    height: 400px;
+}
+
+.left_column{
+    background-color: seagreen;
+}
+.central_column{
+    width: 60%;
+    height: 400px;
+    background-color: tomato;
+    float: left;
+}
+.right_column{
+    background-color: slateblue;
 }
