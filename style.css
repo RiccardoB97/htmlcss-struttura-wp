@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    background-color: lightgray;
+    margin: auto;
+}
+
+header{
+    height: 80px;
+    background-color: red;
+}
+
+.main_banner{
+    background-color: royalblue;
+    height: 300px;
+}
