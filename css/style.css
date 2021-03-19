@@ -1,3 +1,4 @@
+/* Common classes */
 *{
     box-sizing: border-box;
     padding: 0;
@@ -10,22 +11,26 @@
     clear: both;
 }
 
-.container{
+body{
     width: 80%;
     background-color: lightgray;
     margin: auto;
 }
 
-header, footer{
+/* Site header and footer */
+#site_header, #site_footer{
     height: 80px;
     background-color: red;
-    width: 80%;
-    margin: auto;
+}
+
+#site_main{
+    background-color: coral;
+    height: 900px;
 }
 
 .main_banner{
     background-color: royalblue;
-    height: 300px;
+    height: 400px;
 }
 .main_title{
     height: 100px;
