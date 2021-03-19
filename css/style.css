@@ -27,6 +27,10 @@ header, footer{
     background-color: royalblue;
     height: 300px;
 }
+.main_title{
+    height: 100px;
+    background-color: yellowgreen;
+}
 
 .left_column, .right_column{
     width: 20%;
