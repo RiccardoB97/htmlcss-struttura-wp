@@ -21,7 +21,9 @@ body{
 #site_header, #site_footer{
     height: 80px;
     background-color: red;
+    width: 100%;
 }
+
 
 #site_main{
     background-color: coral;
